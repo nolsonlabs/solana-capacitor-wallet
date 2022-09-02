@@ -10,4 +10,16 @@ export class SolanaMobileWalletWeb
     console.log('ECHO', options);
     return options;
   }
+
+  async processLaunch(options: { uri: string }): Promise<void> {
+    console.log('PROCESS LAUNCH' + options)
+  }
+
+  async listenMobileWalletAdapterServiceEvents(options: { uri: string }): Promise<void> {
+    console.log('PROCESS LAUNCH' + options)
+  }
+
+  async userConfirmation(options: { authorized: boolean }): Promise<void> {
+    console.log('PROCESS LAUNCH' + options)
+  }
 }

@@ -14,6 +14,9 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`processLaunch(...)`](#processlaunch)
+* [`listenMobileWalletAdapterServiceEvents(...)`](#listenmobilewalletadapterserviceevents)
+* [`userConfirmation(...)`](#userconfirmation)
 
 </docgen-index>
 
@@ -31,6 +34,45 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 | **`options`** | <code>{ value: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### processLaunch(...)
+
+```typescript
+processLaunch(options: { uri: string; }) => Promise<void>
+```
+
+| Param         | Type                          |
+| ------------- | ----------------------------- |
+| **`options`** | <code>{ uri: string; }</code> |
+
+--------------------
+
+
+### listenMobileWalletAdapterServiceEvents(...)
+
+```typescript
+listenMobileWalletAdapterServiceEvents(options: { uri: string; }) => Promise<void>
+```
+
+| Param         | Type                          |
+| ------------- | ----------------------------- |
+| **`options`** | <code>{ uri: string; }</code> |
+
+--------------------
+
+
+### userConfirmation(...)
+
+```typescript
+userConfirmation(options: { authorized: boolean; }) => Promise<void>
+```
+
+| Param         | Type                                  |
+| ------------- | ------------------------------------- |
+| **`options`** | <code>{ authorized: boolean; }</code> |
 
 --------------------
 
