@@ -3,7 +3,7 @@
 <p>The Wallet plugin works by;</p>
 <ul>
 <li>Listening for the URL the Wallet was launched with using the getLaunchUrl() method provided as part of the <a href="https://capacitorjs.com/docs/apis/app"> Capacitor App plugin</a>.</li>
-<li>Launching a process which handles, verification, payload signing and signing & sending transactions as well as session termination.</li>
+<li>Triggering processLaunch() which handles, verification, payload signing and signing & sending transactions as well as session termination based on the URL.</li>
 <li>Registering listeners for these events so the correct UI can be triggered in the web app.</li>
 <li>After UI has been displayed user choices (i.e. approve or decline) are captured by the userConfirmation() method. This passes the user's response back into the active process so the request lifecycle can be completed.</li>
 </ul>
