@@ -5,13 +5,17 @@
   <h3>TLDR;</h3>
   <p>This repo contains source code for a Capacitor plugin based on the Solana Mobile Wallet SDK. The plugin allows developers building apps on web to access the native Android functionality provided in the Solana Mobile SDK.</p>
 
-  <p>Better documentation will follow</p>
+  <p>API documentation is <a href="https://github.com/nolsonlabs/solana-capacitor-wallet/blob/main/API.md">here</a></p>
 
   <p>The plugin for dApps is <a href="https://github.com/nolsonlabs/solana-capacitor-dapp">here</a></p>
 
   <p>These plugins were built to illustrate the potential for combining Capacitor and the Solana Mobile SDKs. It was completed in just over a week at the Singapore Solana Summer Camp 2022.<b>It is definitely not ready for production use.</b></p>
 
   <p>Free and open source. Comments, questions, feedback and contributions most welcome.</p>
+
+  <p><b>Demo video on Twitter</b></p>
+
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📺<a href="https://twitter.com/solana?ref_src=twsrc%5Etfw">@solana</a> x <a href="https://twitter.com/capacitorjs?ref_src=twsrc%5Etfw">@capacitorjs</a> demo<br>🛠️Build web apps on <a href="https://twitter.com/solanamobile?ref_src=twsrc%5Etfw">@solanamobile</a> native SDKs using your favourite Javascript framework! <a href="https://t.co/pPAe7K6X9W">pic.twitter.com/pPAe7K6X9W</a></p>&mdash; Solana x Capacitor (@solanacapacitor) <a href="https://twitter.com/solanacapacitor/status/1568079874937733120?ref_src=twsrc%5Etfw">September 9, 2022</a></blockquote>
 
   <h3>What is this project?</h3>
   <p>This project exists to help drive the adoption of Solana SDKs across mobile & web. The idea is make it easier for more developers to build cross-platform dApps by providing an open source Capacitor plugin based on the existing Solana SDKs.<p>
