@@ -12,11 +12,7 @@
   <p>These plugins were built to illustrate the potential for combining Capacitor and the Solana Mobile SDKs. It was completed in just over a week at the Singapore Solana Summer Camp 2022.<b>It is definitely not ready for production use.</b></p>
 
   <p>Free and open source. Comments, questions, feedback and contributions most welcome.</p>
-
-  <p><b>Demo video on Twitter</b></p>
-
-  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📺<a href="https://twitter.com/solana?ref_src=twsrc%5Etfw">@solana</a> x <a href="https://twitter.com/capacitorjs?ref_src=twsrc%5Etfw">@capacitorjs</a> demo<br>🛠️Build web apps on <a href="https://twitter.com/solanamobile?ref_src=twsrc%5Etfw">@solanamobile</a> native SDKs using your favourite Javascript framework! <a href="https://t.co/pPAe7K6X9W">pic.twitter.com/pPAe7K6X9W</a></p>&mdash; Solana x Capacitor (@solanacapacitor) <a href="https://twitter.com/solanacapacitor/status/1568079874937733120?ref_src=twsrc%5Etfw">September 9, 2022</a></blockquote>
-
+  
   <h3>What is this project?</h3>
   <p>This project exists to help drive the adoption of Solana SDKs across mobile & web. The idea is make it easier for more developers to build cross-platform dApps by providing an open source Capacitor plugin based on the existing Solana SDKs.<p>
     
@@ -32,10 +28,6 @@
   <p>The plugin was built as a to illustrate the concept in just over a week at the Singapore Solana Summer Camp 2022. <b>It is definitely not ready for production use.</b></p>
   <p>The plugin is a wrapper around the Kotlin "fakewallet" Android application built by the Solana Mobile team (see https://github.com/solana-mobile/mobile-wallet-adapter/tree/main/android/fakewallet). It allows a developer building a web app to access to all the methods in MobileWalletAdapterViewModel.kt in the underlying Kotlin project.</p>
   <p>The current implementation for Android relies on manifest permissions settings that may require prior agreement from moderators for Play Store distribution.</p>
-  <h4>Demo & Installation</h4>
-  <p>The code is this repo is the Capacitor source code for the plugin.</p>
-
-  <p>A short presentation given at the Singapore Summer Camp is <a href="https://docs.google.com/presentation/d/18OUGsrpjco8OxIglSzq0gu4s_Fqaz9uB/edit#slide=id.p1">here</a>. It contains a link to an even shorter demo video.</p>
   
   <h3>Next steps</h3>
   <h4>Overall direction</h4>
